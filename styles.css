@@ -1,0 +1,40 @@
+
+html{
+
+    background-image: linear-gradient(	#A8CEFF, #4C9ADB);
+}
+
+body{
+    background-image: linear-gradient(	#F6FEE7, #E2F6BA);
+    width: 75%;
+    height: 100vh;
+    margin: 0 auto;
+
+
+    padding-top: 0;
+
+    padding-bottom: 0;
+    border: solid 3px darkgray;
+
+
+}
+
+menu{
+    background-image: linear-gradient(	#FFEAE6, #F0ABAB);
+    border-top: solid 3px darkgray;
+    border-bottom: solid 3px darkgray;
+    height: 100px;
+}
+
+menu a{
+
+}
+
+div{
+    background-color: #F0FCDD;
+
+    margin-top: 0;
+    padding-top: 0;;
+
+
+}
