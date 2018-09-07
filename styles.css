@@ -19,14 +19,35 @@ body{
 
 }
 
-menu{
-    background-image: linear-gradient(	#FFEAE6, #F0ABAB);
+menu {
+    background-image: linear-gradient(#FFEAE6, #F0ABAB);
     border-top: solid 3px darkgray;
     border-bottom: solid 3px darkgray;
     height: 100px;
+    text-align: center;
+
 }
 
 menu a{
+    background-image: linear-gradient(#fce0dd, #f2b4b3);
+    height: 50px;
+    padding: 10px;
+    font-size: 1.875em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+
+    text-decoration: none;
+    color: #181414;
+}
+
+menu a:hover{
+
+    background-image: linear-gradient(#fce0dd, #fb4a47);
 
 }
 
