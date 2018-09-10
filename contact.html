@@ -21,31 +21,36 @@
     <div class="center">
 
 
-        <fieldset>
-
-            <h4>Ask you question</h4>
-
-            <select>
-                <option value="Question">Question</option>
-                <option value="Other">Other</option>
-
-            </select>
-
-            <p>Name: </p>
-            <input placeholder="Your Name">
-
-            <p>Question: </p>
-
-            <textarea placeholder="Your Question"></textarea>
-
-            <h4>How should I contact you?</h4>
-
-            <input type="checkbox" name="contact" value="Email"> By email<br>
-            <input type="checkbox" name="contact" value="Phone"> By phone<br>
+        <form action="" method="get">
 
 
-        </fieldset>
 
+                <h4>Ask you question</h4>
+
+                <select>
+                    <option value="Question">Question</option>
+                    <option value="Other">Other</option>
+
+                </select>
+
+                <p>Name: </p>
+                <input placeholder="Your Name" name="name">
+
+                <p>Question: </p>
+
+                <textarea placeholder="Your Question" name="question"></textarea>
+
+                <h4>How should I contact you?</h4>
+
+                <input type="checkbox" name="contact" value="Email"> By email<br>
+                <input type="checkbox" name="contact" value="Phone"> By phone<br>
+
+
+
+
+            <input type="submit" value="Submit">
+
+        </form>
 
     </div>
 

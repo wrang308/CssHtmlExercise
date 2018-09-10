@@ -7,7 +7,8 @@ html{
 body{
     background-image: linear-gradient(	#F6FEE7, #E2F6BA);
     width: 75%;
-    height: 100vh;
+    min-height: 100vh;
+
     margin: 0 auto;
 
 
@@ -66,8 +67,6 @@ menu a:hover{
 }
 
 div{
-    background-color: #F0FCDD;
-
     margin-top: 0;
     padding-top: 0;;
 
@@ -80,12 +79,13 @@ div{
     margin-left: auto;
 }
 
-fieldset{
-    border: none;
 
+form p{
+    margin-bottom: 2px;
 }
 
-fieldset textarea{
+
+form textarea{
     resize: none;
     width: 50%;
     height: 150px;
