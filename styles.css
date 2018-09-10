@@ -28,11 +28,23 @@ menu {
 
 }
 
+@media only screen and (max-width: 650px) {
+    menu a {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 651px) {
+    menu a {
+        font-size: 1.875em;
+    }
+}
+
 menu a{
     background-image: linear-gradient(#fce0dd, #f2b4b3);
     height: 50px;
     padding: 10px;
-    font-size: 1.875em;
+
     font-weight: bold;
     text-align: center;
     margin-top: 15px;
@@ -44,6 +56,8 @@ menu a{
     text-decoration: none;
     color: #181414;
 }
+
+
 
 menu a:hover{
 
@@ -58,4 +72,21 @@ div{
     padding-top: 0;;
 
 
+}
+
+.center{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+fieldset{
+    border: none;
+
+}
+
+fieldset textarea{
+    resize: none;
+    width: 50%;
+    height: 150px;
 }
