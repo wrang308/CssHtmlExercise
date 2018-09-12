@@ -74,11 +74,18 @@ div{
 }
 
 .center{
-    width: 75%;
+
     margin-right: auto;
     margin-left: auto;
 }
 
+.width75{
+    width: 75%;
+}
+
+iframe{
+    display:block;
+}
 
 form p{
     margin-bottom: 2px;
