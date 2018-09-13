@@ -85,6 +85,7 @@ div{
 
 iframe{
     display:block;
+    margin-bottom: 50px;
 }
 
 form p{
@@ -96,4 +97,14 @@ form textarea{
     resize: none;
     width: 50%;
     height: 150px;
+}
+
+img{
+    width: 560px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+h5{
+    text-align: center;
 }
