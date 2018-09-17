@@ -112,7 +112,7 @@ h5{
     text-align: center;
 }
 .imgFromCSS{
-    background-image: url("images/thumbsUp.webp");
+    background-image: url("../images/thumbsUp.webp");
     width: 260px;
     height: 192px;
 }
